@@ -1,0 +1,11 @@
+Test differents seuils
+-- Test seuil: 10
+FLOBARDO FABIO 10
+HUISU GERALDE 12
+HYLEYN ANTOINE 13
+LANGRONNE ENZO 15
+VAUHEGHE ENOLA 14
+-- Test seuil: 15
+LANGRONNE ENZO 15
+-- Test seuil: 21
+<liste vide>
