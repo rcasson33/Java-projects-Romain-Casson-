@@ -1,0 +1,28 @@
+-- test a1.plus(a2) :
+123.88 Euros	<-- attendu
+123.88 Euros	<-- obtenu
+
+-- test a1.plus(a3) :
+934.06 Euros	<-- attendu
+934.06 Euros	<-- obtenu
+
+-- test a3.plus(a4) :
+1025.00 Dollars	<-- attendu
+1025.00 Dollars	<-- obtenu
+
+--test a4.plus(a2) :
+52.78 Dollars	<-- attendu
+52.78 Dollars	<-- obtenu
+
+-- test a2.moins(a1) :
+null	<-- attendu
+null	<-- obtenu
+
+--test a3.moins(a1) :
+879.13 Dollars	<-- attendu
+879.13 Dollars	<-- obtenu
+
+--test a4.moins(a1) :
+null	<-- attendu
+null	<-- obtenu
+

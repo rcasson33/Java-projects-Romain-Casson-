@@ -1,0 +1,32 @@
+-- new Compte :
+9876543210 Charles_Ragondin 1234.56 Euros 150
+-- test deposer (legal) : attend true
+true
+-- nouveau solde (via trouverCompte et getSolde) : attend 1235.56 Euros
+1235.56 Euros
+-- test prelever (legal) : attend true
+true
+-- nouveau solde (via trouverCompte et getSolde) : attend 1234.56 Euros
+1234.56 Euros
+-- test deposer (numero pas dans Banque) : attend false
+false
+-- test prelever (numero pas dans Banque) : attend false
+false
+-- test prelever (montant trop grand, pas de plafond) : attend false
+false
+-- solde (via trouverCompte et getSolde) : attend 1234.56 Euros (pas de changement apres retrait illegal)
+1234.56 Euros
+-- test prelever (test limite plafond) : attend true
+true
+-- test prelever (test limite plafond) : attend true
+true
+-- test prelever (test limite plafond) : attend false
+false
+-- nouveau solde : attend 934.55 Euros
+934.55 Euros
+-- test prelever et deposer des montants d'une autre monnaie : 
+true
+false
+true
+-- nouveau solde : attend 920.25 Euros
+920.25 Euros
